@@ -1,0 +1,17 @@
+﻿.footer {
+    display: flex; /* 플렉스 박스 활성화 */
+    justify-content: center; /* 아이템들 사이에 공간을 균등하게 배분 */
+    align-items: center; /* 아이템들을 수직 중앙 정렬 */
+    padding-bottom:10%;
+}
+
+.github-content, .email-content {
+    display: flex; /* 플렉스 박스 활성화 */
+}
+
+.github-logo, .mail-logo {
+    width: 40px; /* 로고의 너비 */
+    height: auto; /* 높이 자동 조정 */
+    margin: 0 10px; /* 아이템들 사이에 간격 추가 */
+    cursor: pointer; /* 커서를 포인터로 변경 */
+}

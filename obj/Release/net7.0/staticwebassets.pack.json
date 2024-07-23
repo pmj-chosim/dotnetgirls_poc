@@ -1,0 +1,97 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\min\\BlazorApp-empty1\\bin\\Release\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\min\\BlazorApp-empty1\\obj\\Release\\net7.0\\compressed\\o45ev81akl.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\min\\BlazorApp-empty1\\wwwroot\\Image\\girlsimage1.png",
+      "PackagePath": "staticwebassets\\Image\\girlsimage1.png"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\min\\BlazorApp-empty1\\wwwroot\\Image\\girlsimage2.png",
+      "PackagePath": "staticwebassets\\Image\\girlsimage2.png"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\min\\BlazorApp-empty1\\wwwroot\\Image\\github-mark.png",
+      "PackagePath": "staticwebassets\\Image\\github-mark.png"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\min\\BlazorApp-empty1\\wwwroot\\Image\\homeimage.png",
+      "PackagePath": "staticwebassets\\Image\\homeimage.png"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\min\\BlazorApp-empty1\\wwwroot\\Image\\homeimage1.png",
+      "PackagePath": "staticwebassets\\Image\\homeimage1.png"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\min\\BlazorApp-empty1\\wwwroot\\Image\\mail.png",
+      "PackagePath": "staticwebassets\\Image\\mail.png"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\min\\BlazorApp-empty1\\wwwroot\\css\\About.css",
+      "PackagePath": "staticwebassets\\css\\About.css"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\min\\BlazorApp-empty1\\wwwroot\\css\\Contact.css",
+      "PackagePath": "staticwebassets\\css\\Contact.css"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\min\\BlazorApp-empty1\\wwwroot\\css\\Footer.css",
+      "PackagePath": "staticwebassets\\css\\Footer.css"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\min\\BlazorApp-empty1\\wwwroot\\css\\Header.css",
+      "PackagePath": "staticwebassets\\css\\Header.css"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\min\\BlazorApp-empty1\\wwwroot\\css\\Home.css",
+      "PackagePath": "staticwebassets\\css\\Home.css"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\min\\BlazorApp-empty1\\wwwroot\\css\\Index.css",
+      "PackagePath": "staticwebassets\\css\\Index.css"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\min\\BlazorApp-empty1\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\min\\BlazorApp-empty1\\wwwroot\\fonts\\MouldyCheeseRegular-WyMWG.ttf",
+      "PackagePath": "staticwebassets\\fonts\\MouldyCheeseRegular-WyMWG.ttf"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\min\\BlazorApp-empty1\\wwwroot\\fonts\\RonysiswadiArchitect6-X3V9G.ttf",
+      "PackagePath": "staticwebassets\\fonts\\RonysiswadiArchitect6-X3V9G.ttf"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\min\\BlazorApp-empty1\\wwwroot\\fonts\\SparkyStonesRegular-BW6ld.ttf",
+      "PackagePath": "staticwebassets\\fonts\\SparkyStonesRegular-BW6ld.ttf"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\min\\BlazorApp-empty1\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.BlazorApp-empty1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.BlazorApp-empty1.props",
+      "PackagePath": "build\\BlazorApp-empty1.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorApp-empty1.props",
+      "PackagePath": "buildMultiTargeting\\BlazorApp-empty1.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.BlazorApp-empty1.props",
+      "PackagePath": "buildTransitive\\BlazorApp-empty1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

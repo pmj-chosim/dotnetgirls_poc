@@ -1,0 +1,76 @@
+﻿@font-face {
+    font-family: 'Mouldy';
+    src: url('/fonts/MouldyCheeseRegular-WyMWG.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Ronysiswadi';
+    src: url('/fonts/RonysiswadiArchitect6-X3V9G.ttf') format('truetype');
+}
+
+/* 이미지와 오버레이 텍스트를 감싸는 컨테이너 스타일 */
+.image-container {
+    position: relative; /* 자식 요소의 절대 위치 기준 설정 */
+    width: 100%; /* 부모 요소의 너비에 맞게 조정 */
+    max-width: 100%; /* 최대 너비 설정 (부모 요소의 너비를 초과하지 않도록) */
+    height: auto; /* 높이를 자동으로 조정 */
+    margin: auto; /* 중앙 정렬 */
+}
+
+    /* 이미지 스타일 */
+    .image-container img {
+        width: 100%; /* 이미지가 부모 요소의 너비에 맞게 조정 */
+        height: auto; /* 비율 유지 */
+        display: block; /* 이미지 아래 여백 제거 */
+    }
+
+/* 오버레이 텍스트 스타일 */
+.overlay-text {
+    position: absolute; /* 절대 위치 설정 */
+    top: 50%; /* 수직 중앙 정렬 */
+    left: 50%; /* 수평 중앙 정렬 */
+    transform: translate(-50%, -50%); /* 중앙 정렬을 위한 변환 */
+    color: white; /* 글자 색상 */
+    text-align: center; /* 글자 중앙 정렬 */
+    opacity: 0; /* 기본 상태에서 숨김 */
+    text-shadow: 1px 1px 0 #000, /* 오른쪽 아래 그림자 (검정색) */
+    -1px -1px 0 #000, /* 왼쪽 위 그림자 (검정색) */
+    1px -1px 0 #000, /* 오른쪽 위 그림자 (검정색) */
+    -1px 1px 0 #000; /* 왼쪽 아래 그림자 (검정색) */
+    transition: opacity 0.5s ease; /* 기본 애니메이션 설정 */
+}
+
+    /* h1 스타일 */
+    .overlay-text h1 {
+        padding: 0px;
+        font-size: 12vw; /* 글자 크기 */
+        font-family: 'Mouldy';
+        margin: 0; /* h1과 p 사이 간격 제거 */
+        opacity: 0; /* 기본 상태에서 숨김 */
+        transition: opacity 0.5s ease; /* 호버 시 부드러운 전환 효과 */
+        transition-delay: 0s; /* 0초 지연 후 애니메이션 시작 */
+    }
+
+    /* p 스타일 */
+    .overlay-text p {
+        padding: 0px;
+        font-size: 3vw; /* 글자 크기 */
+        font-family: 'Ronysiswadi';
+        margin: 0; /* h1과 p 사이 간격 제거 */
+        opacity: 0; /* 기본 상태에서 숨김 */
+        transition: opacity 2s ease; /* 호버 시 부드러운 전환 효과 */
+        transition-delay: 0.5s; /* 0.5초 지연 후 애니메이션 시작 */
+    }
+
+/* 마우스 오버 시 텍스트 나타나기 */
+.image-container:hover .overlay-text {
+    opacity: 1; /* 마우스 오버 시 텍스트가 보이도록 설정 */
+}
+
+    .image-container:hover .overlay-text h1 {
+        opacity: 1; /* h1 텍스트가 보이도록 설정 */
+    }
+
+    .image-container:hover .overlay-text p {
+        opacity: 1; /* p 텍스트가 보이도록 설정 */
+    }

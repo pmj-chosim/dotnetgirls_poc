@@ -1,0 +1,75 @@
+@font-face {
+	font-family: 'Mouldy';
+	src: url('/fonts/MouldyCheeseRegular-WyMWG.ttf') format('truetype');
+}
+
+#contact {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+	font-family: 'Mouldy';
+	/*background-color: #b7b7b7*/
+}
+
+#contact h1 {
+		font-style: italic;
+		color: black;
+}
+
+#contact .other {
+		font-size: 4vw; /* "Subscribe" 텍스트 크기 조정 */
+		color: black; /* 텍스트 색상 조정, 필요에 따라 수정 */
+}
+
+#contact .highlight-text {
+    font-size: 11vw ; /* "Subscribe" 텍스트 크기 조정 */
+    color: black; /* 텍스트 색상 조정, 필요에 따라 수정 */
+	font-weight:bold;
+}
+
+
+#contact p{
+	padding-top: 1.5%;
+	padding-bottom:2%;
+	font-size: 1.5vw;
+	font-weight:lighter;
+}
+
+.div{
+	margin-bottom: 10%;
+}
+	#contact div {
+		margin: auto;
+		width: 50%;
+		padding: 10px;
+	}
+
+	#contact label {
+		margin-right: 10px;
+		font-size: 18px;
+		color: black;
+	}
+
+	#contact input[type="email"] {
+		padding: 10px;
+		font-size: 16px;
+		border: 2px solid #333;
+		border-radius: 5px;
+		margin-right: 10px;
+	}
+
+#contact button {
+	padding: 10px 20px;
+	font-size: 18px;
+	background-color: #C4AEE0;
+	color: black;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: 'Ronysiswadi';
+	font-weight: bold;
+}
+
+	#contact button:hover {
+		background-color: #A6A8E6;
+	}
